@@ -4,5 +4,5 @@ DiscordのVCに入室するとファミリーマートの入店音を流しま�
 ## 必要なもの
 + Python
 + discord.py[voice]
-+ ffmpeg
++ FFmpeg
 + Discord BOT
