@@ -10,6 +10,9 @@ TOKEN = os.environ.get('DISCORD_TOKEN')
 
 @client.event
 async def on_voice_state_update(member: discord.Member, before, after):
+    if member.bot:
+        return
+    
     if before.channel != after.channel:
         if after.channel is not None:
             channel = member.voice.channel
