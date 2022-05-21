@@ -10,3 +10,9 @@ DiscordのVCに入室するとファミリーマートの入店音を流しま�
 + discord.py[voice]
 + FFmpeg
 + Discord BOT
+
+## コマンド
+|コマンド|動作|
+|:-:|:-:|
+|;join|BotをVCに呼び出します。|
+|;leave|BotをVCから退出させます。|
