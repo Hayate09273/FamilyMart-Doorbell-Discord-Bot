@@ -13,7 +13,7 @@ async def on_message(message: discord.Message):
     if message.author.bot:
         return
     
-    if message.content == ";join"
+    if message.content == ";join":
         if message.author.voice is None:
             await message.channel.send("あなたはボイスチャンネルに接続していません。")
             return
